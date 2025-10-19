@@ -16,9 +16,7 @@ In the slides folder you can find the old slides that we have previously shown b
 
 
 
-If you have a problem that you want us to help you with then click on this link and submit it or ask in the remind. 
-
-https://docs.google.com/forms/d/e/1FAIpQLSfoNYdLgSHug\_YwgwCkFPUmYISk5iS86iMEnudNvwOs-WGagg/viewform?usp=header
+If you have a problem that you want us to help you with then ask us in person it or ask in the remind.
 
 
 
