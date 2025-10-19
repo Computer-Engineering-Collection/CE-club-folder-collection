@@ -1,0 +1,270 @@
+module inverter(Q,A,Y)
+
+   //Have to declare outputs
+   input A;
+   output Q;
+   output Y;
+   supply1 vdd;
+   supply0 vss;
+   
+   //CMOS
+   pmos p (Q, vdd, A);  
+   nmos n (Q, vss, A); 
+   
+   //LOGIC GATES
+   and G1(Q,A,B);
+   nand G2(Y,A,B);
+   or G3(Q,A,B);
+   
+   //DATA FLOW& REGISTERS
+   assign z = x&y;
+   assign p = q|r;
+   assign z = ~y;
+
+endmodule
+//CANNOT NEST MODULES      
+//MODULES   
+module name(x,y,z)
+   input x,y;
+   output z;
+   //code;
+endmodule
+
+//BEHAVIORAL, HIGHEST LEVEL OF ABSTRACTION
+//MULTIPLEXERS
+module mux_2to1(i0,i1,sel,out)
+   input i0,i1,sel;
+   output out;
+   always@(i0,i1,sel)
+   begin
+      if(sel)
+         out = i1;
+      else
+         out = i0;
+      end
+endmodule
+
+module mux_4to1(i0,i1,i2,i3,i4,s1,s0,out)
+   input i0,i1,i2,i3,s1,s0;
+   output out;
+   wire x1,x2;
+   
+   //passes i as input, s asselect, and x as output. x is also input.
+   mux_2to1 m1(i0,i1,s1,x1);
+   mux_2to1 m2(i2,i3,s1,x2);
+   mux_2to1 m3(x1,x2,s0,out);
+   
+endmodule
+
+//KEYWORDS
+new_block1 //good
+1new_blOck //bad
+ 
+//VALUES AND SIGNAL STRENGTH
+/*
+VALUES
+0 = logic 0, false
+1 = logic 1, true
+X = Unknown
+Z = high impedance, floating state
+
+SIGNAL STRENGTHS
+supply = Driving      --STRONG--
+strong = Driving           ^
+pull = Driving             |
+large = Storage            ^
+weak = Driving             |
+medium = Storage           ^
+small = Storage            |
+highz - High Impedance --WEAK--
+
+PORTS
+input -internally net, externaly reg or net
+output -internaly reg or net, externaly net
+inout -only wire datatype --net->net--
+*/
+   
+/* NET data type is hardware connection
+   it must be contunuasly driven, cannot store values
+   NET declared with "wire" with defualt value Z
+   
+   NET repersents: 
+   wire -normal wire, carry input
+   wand -carry result of and on 2 input
+   wor -carry result of or on 2 input
+   tri
+   triand
+   trior
+   trireg
+*/  
+     
+ module use_and(a,b,c,d,y)
+   input a,b,c,d;
+   output y;
+   wand y; //takes 2 input
+   assign y = a&b;
+   assign y = c|d; //this would overwite wire
+endmodule 
+
+//SUPPLY
+module use_supply(y,a,b,c,d);
+   input a,b,c,d;
+   output y;
+   supply1 vdd; //MUST be supply1
+   supply0 gnd; //MUST be supply0
+   
+   or G1(x1,a,gnd);
+   and G2(x2,b,vdd);
+   xor G3(y,x1,x2);
+   
+endmodule
+
+/*       //*\\
+NUMBERS
+1'b1  -logic 1 1bit binary
+8'h21 -8 bit number hex
+12'ha35 -12 bit number hex
+12'o42xx -12 bit number octal
+4'd1 -4 bit decimal
+35 -signed number in 32 bits
+
+4'bX0 --XXXX_0
+5'd1  --0000_1
+16'hz6 --ZZZZ_ZZZZ_ZZZZ_0110
+*/
+
+/* REGISTER DATA
+reg -widly used
+integer -used for loop counting -defualt with 32, value X,sythasizable
+
+real -used to store floating point numbers - default val 0.0, round to NEAREST INTEGER. not sythasizable
+
+time -keeps track of simulation time -at least 64 bits, defualt val X, not sythasizable
+*/
+
+reg count; //single bit
+reg [7:0] bus; //multi bit (8)
+initial
+begin
+count = 1'b0; //starts at 0
+#10 count = 1'b1;//after 10  time goes to 1
+#10 count = 1'b0;//after another 10 it goes to 0
+end
+
+real floatfloat, numnum;
+initial
+begin
+floatfloat = 4.21; //real is just floats/doubles
+numnum = -4158.6821;
+end
+
+integer a;
+real b;
+initial 
+begin
+b = -2.7;
+a = b; // = 7
+end
+
+integer cont, new_num; // 2 new integers
+initial
+begin
+count = 4;
+new_num = -17;
+end
+
+time newtime;
+initial
+begin
+newtime = $time; //saves current time stamp
+//$time is system time
+end
+
+/*VECTORS
+net or reg can be vectors with multi bit width
+defualt bit width is scalar, 1 bit
+vectors are busses
+vectors have specified ranges [r1:r2]
+r1 is the most significant and r2 is the least
+*/
+
+wire f,g,p,a //single bit
+wire [15:0] data; //16 bit
+wire[0;31] sum; //msb is sum[0] lsb is sum[31]
+reg clock; //scalar registers, defualt
+reg[7:0]d1,d2,d3; //3 buses of 8 bit width
+reg[1:40]bus; //vector register, 40 bit bus
+
+/* ARRAYS
+arrays are for reg, integer, time, real and vectors.
+verilog has multi-dimensiol arrays
+*/
+
+reg[7:0] regbank[15:0] //16-8 bit reg
+reg num[31:0] //array 32 1 bit nums 
+reg rega[0:7] //array of 8, 1 bit regs
+reg arrayofarray[0:1][0:3] //2d array of 1 bit regs
+wire arrayofarraywire[0:7][0:3] //2d array of wires, 8 rows 4 colomns
+
+/*MEMORIES
+1d array of regs
+used to model ROM's and RAM's
+each reg is a element or a word and are addressed by an index number, each element can be 1 or multi but.
+*/
+
+reg mem_1bit[0:1023]; //Memory with 1K 1 bit words
+reg[7:0] membytes[0:1023]; //Memory of 1K 8 bit words
+
+/* PARAMETERS
+are constant values, not variables. These values can be overwritten at compile time. This allows them to be coutomized for each module
+*/
+
+parameter width = 8;
+parameter height = 67;
+
+/*STRINGS
+strings can be stored in reg. The width of reg vars must be large enough to hold a string, each string is about 8bits, or 1 byte.
+*/
+reg[7*10:1]string1;
+string1 = "Verilog";
+
+/* ARTHMETIC OPERATOR
+Unary- the operators + and - are unary and for positives or negetive
+Binary- these operators are +,-,*,**,/,and %. These take 2 operands, if any operand bit has a value x, the result of the operation is x.
+
+EXAMPLE
+A =4'b00010, B = 4'b0011;
+D = 7, E = 4, F = 2;
+A * B = 4'b0110;
+D / E = 1l;
+A + B = 4'b0101;
+B - A = 4'b0001;
+F = E ** F = 16;
+
+LOGIC
+! = not, 1 op
+|| = or, 2 op
+&& = and, 2 op
+
+BIT WISE
+& = and, 2 op
+| = or, 2 op
+~ = nor, 1 op
+^ = xor, 2 op
+^~ or ~^ = xnor, 2 op
+>> = shift right
+<< = shift left
+>>> = arthmetic shift right
+<< = arthmetic shift left
+
+EQUALITY
+Logical equal: ==;
+Logical inequal: !=;
+Cawquality: ===;
+Case inequality: !==;
+ 
+ CONCATINATION
+ appends multiple ops, but the ops must be sized.
+*/
+
+
