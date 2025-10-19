@@ -20,3 +20,7 @@ If you have a problem that you want us to help you with then click on this link 
 
 https://docs.google.com/forms/d/e/1FAIpQLSfoNYdLgSHug\_YwgwCkFPUmYISk5iS86iMEnudNvwOs-WGagg/viewform?usp=header
 
+
+
+Note: Anyone (members/people with access) that purposly decides to mess up/screw with this repo will face consequences. GitHub includes logs of whatever yall do.
+
