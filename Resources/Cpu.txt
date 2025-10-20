@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=uNBVukvwyuc&list=PL1C2GgOjAF-KFxGFauGAF3wOjYbmezNG0
+This is useful for learning 5 stage parallelism processors. This channel is good in general.
+
+https://github.com/yasnakateb/MIPSProcessor/blob/master/src/MIPS.v
+Example 5 stage detailed mips processor github project
+
+https://github.com/jaywonchung/Verilog-Harvard-CPU/tree/master
+Example of many types of cpu written in verilog. It doesn’t include testbenches.
+
+https://chipyard.readthedocs.io/en/latest/VLSI/index.html
+A general vlsi website for vlsi the full vlsi toolkit.
+
+https://www.cs.cmu.edu/~guyb/papers/BM04.pdf
+Parallelism paper.

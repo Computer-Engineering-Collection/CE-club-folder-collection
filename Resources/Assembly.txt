@@ -1,0 +1,26 @@
+https://pdos.csail.mit.edu/archive/6.097/readings/intelv2.pdf
+The Intel ia-32 manual. This manual is LONG and detailed. Learn assembly first and then look at the extra information provided by the manual.
+
+https://www.felixcloutier.com/x86/
+This is a list based on the ia-32 manual. It is very useful and more concise than the manual.
+
+https://www.youtube.com/@flatassembler/videos
+Official flat assembler (fasm) youtube channel.
+
+https://flatassembler.net/
+This is the fasm homepage. Do note that there is a lot of valuable information here. Examples, manuals and the forums are here as well as the download.
+
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DgfmRrPjnEw4%26pp%3D0gcJCf0Ao7VqN5tD&ved=2ahUKEwjQ9YjghP-OAxXzk2oFHajoKuQQkPEHegQIGBAG&usg=AOvVaw1GsXSx8JQP_3GnOet5rNeI
+Learn ARM assembly. The video does show the CpuLator, arm emulator (this is only necessary if your cpu is not arm). The video is slow and thorough though you can skip through sections if you would like.
+
+https://x64dbg.com/
+X64dbg is a debugger for dynamic analysis for x86 and x64 asm. This is just the download link.
+
+https://www.ollydbg.de/
+Ollydbg is a 32 bit x86 asm dynamic analysis tool. I recommend using x64 because it has a module for 64 and 32 bit debugging. 
+
+https://www.youtube.com/watch?v=yBO-EJoVDo0&list=PL2EF13wm-hWCoj6tUBGUmrkJmH1972dBB
+A video tutorial series for nasm.
+
+https://www.eecg.utoronto.ca/~amza/www.mindsec.com/files/x86regs.html
+Registers for x86 asm. 

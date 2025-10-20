@@ -1,0 +1,17 @@
+https://www.eeeguide.com/rom-memory/
+This is useful for learning about rom. The link also has links for other things.
+
+https://www.researchgate.net/publication/356901190_A_review_paper_on_memory_fault_models_and_test_algorithms
+This is useful for learning more about ram. It is mostly looking into faults (specifically functional ones). For more context faults are defects in the hardware that come during manufacturing. Functional faults are faults that cause the hardware to behave differently than anticipated. There are a ton of faults mentioned in Section 2 if you are interested. Faults can interact with each other to make the designer and tester's life more difficult but this paper doesn’t cover those.
+
+https://www.researchgate.net/publication/316823933_Embedded_Memory_Design_for_Multi-Core_and_Systems_on_Chip
+This is good for learning about memory on a deeper level (Long). 
+
+https://www.iue.tuwien.ac.at/phd/windbacher/node4.html
+Great for learning more on flash memory. 
+
+https://www.geeksforgeeks.org/digital-logic/latches-in-digital-logic/
+Great for learning about the types of latches. 
+
+https://www.electronicdesign.com/technologies/embedded/digital-ics/memory/video/55239286/electronic-design-whats-the-difference-between-qspinand-and-nor-flash
+A very short overview of two types of flash memory.

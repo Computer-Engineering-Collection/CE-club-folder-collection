@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=2IReMT_zjK8
+A 15 minute verilog video. 
+
+https://www.youtube.com/watch?v=YUB-OyGr1oA&t=3194s
+A 1 hour verilog video.
+
+https://www.youtube.com/watch?v=33PAoJGm2Fo&list=PL_3xKnVkfI2itQhCyfnamNYSCHd2KHi4k 
+17 episode series
+
+https://www.youtube.com/watch?v=dh88oe6O0QU&t=218s
+In depth risc-v verilog guide (2.5 hours)
+
+https://drive.google.com/file/d/1VYi5PF2dVn5aLr8XIqSEJWMvkXQhvDvW/view?usp=drive_link
+Verilog textbook (400+ pages)

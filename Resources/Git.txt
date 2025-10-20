@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=t2-l3WvWvqg
+Windows download guide 
+
+https://www.youtube.com/watch?v=9GZmaxaQV0c
+Mac download guide
+
+https://youtu.be/aC4uY4aG5WA?si=7Js1KCkOcjfFsIPM
+Linux download guide 
+
+https://www.youtube.com/watch?v=RGOj5yH7evk
+A git and github tutorial (mac in vscode)
+
+https://www.youtube.com/watch?v=mJ-qvsxPHpY
+A git and github tutorial (mac in terminal)
+
+https://www.w3schools.com/git/
+Written git tutorial (gives the commands)
+
+https://docs.google.com/document/d/1LCYm9_YGpPoNb1arS96RvrzG3IclNWvwIUxQ-hQs1UU/edit?pli=1&tab=t.0
+The git tutorial in the CE orientation slides. 

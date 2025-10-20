@@ -1,0 +1,24 @@
+https://pages.cs.wisc.edu/~remzi/OSTEP/
+This is the ostep textbook. It is broken up into parts and is very useful for general os.
+
+https://acs.pub.ro/~cpop/SMPA/Computer%20Architecture%20A%20Quantitative%20Approach%20(5th%20edition).pdf
+This is a parallelism guide. It does ILP, DLP and TLP. 1350 pages.
+
+https://en.wikipedia.org/wiki/Operating_system#Components
+Basic vocabulary for OSes. 
+
+https://www.geeksforgeeks.org/operating-systems/resource-management-in-operating-system/
+Vocabulary for resource management for OSes.
+
+https://github.com/pcolt/Operating-Systems-Three-Easy-Pieces/blob/master/book-rev10.pdf
+OS text book on github
+
+https://www.youtube.com/watch?v=9GDX-IyZ_C8&t=112s
+Basic OS course (20 minutes)
+
+
+https://www.youtube.com/watch?v=dOiA2nNJpc0
+Semi - Beginner OS course (4 hours)
+
+https://www.youtube.com/watch?v=yK1uBHPdp30
+Advanced OS course (24 hours)

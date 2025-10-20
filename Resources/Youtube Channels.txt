@@ -1,0 +1,27 @@
+https://www.youtube.com/@BroCodez 
+This channel is very good for a multitude of coding projects and languages, great C and Python videos
+
+https://www.youtube.com/@LowLevelTV
+Higher level C but still has very good insights for real world C development
+
+https://www.youtube.com/@TheCherno
+This is more for c++ but is a great resource for c++ and some C
+
+https://www.youtube.com/@CoreDumpped
+By far the best resource for understanding computing at a bare metal level, I would highly recommend watching all of his videos
+
+https://www.youtube.com/@Computerphile
+More of a history of computing but can introduce you to important frameworks and whatnot in the world of tech
+
+https://www.youtube.com/@DavyBot
+Great x86 asm series and a lot of hardware videos
+
+https://www.youtube.com/@BranchEducation
+Another amazing resource for bare metal computer with incredible 3d models
+
+https://www.youtube.com/@PortfolioCourses
+Great C series that can show you a lot of what c has to offer
+
+
+https://www.youtube.com/@JacobSorber
+More great C videos that can explain more complex concepts and also has series on network programming and great projects
