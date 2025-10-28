@@ -20,5 +20,9 @@ If you have a problem that you want us to help you with then ask us in person it
 
 
 
+If you want to apply to the board then you should make a pull request of a document called BOARD\_APPLICATION.txt where you will have to give a short paragraph regarding what you have done in the club and why you want to join. You need to have a minimum of 30 points, which are given from doing projects, to apply for a lower board position. 
+
+
+
 Note: Anyone (members/people with access) that purposly decides to mess up/screw with this repo will face consequences. GitHub includes logs of whatever yall do.
 

@@ -1,1 +1,52 @@
-This folder is a collection of files that have the names of anyone who is a part of the club. You should only interact with the folder that has your own name. If you have problems please contact us via messaging or a form. 
+This folder is a collection of files that have the names of anyone who is a part of the club. You should only interact with the folder that has your own name. If you have problems please contact us via the remind. 
+
+To start creating a new project, first create a PLANNED_PROJECT.txt file in your specific folder in the GitHub repo. Go in detail on the details of your project based on the examples below. Make sure to push it to the repo with a pull request and, once the board approves of the project you can start. If you want to do a project with a group you must outline the project and specify who is going to be in your group. 
+
+Your own Project
+
+If you want to make a project on your own then you make the PLANNED_PROJECT.txt with details on how you are going to do the project and what it is about. 
+
+Ex. (PLANNED_PROJECT new project) 
+
+I am going to make a project that reads .pdf files and displays them with their colors inverted. I am planning to use xyz libraries and will code the project in <xyz programming language>  
+
+Directed Project
+
+If you are inexperienced with projects we recommend doing projects that we have made to guide you through starting a project. There will be a little quiz with questions with a difficulty next to them. You are required to do the easy difficulty one. In your PLANNED_PROJECT.txt say what quiz you took and answer the small quizzes in the same document. After that, say what directed project you are going to do. 
+
+Ex. (PLANNED_PROJECT directed project) 
+
+Assembly quiz #1
+
+Q1 - xyz
+Q2 - xyz
+I plan to do the xyz directed project. 
+
+Open source dissection project
+
+If you want to look into an open source project you have to add the link to the project and the name of it in the PLANNED_PROJECT.txt. When you do your weekly update you should go in depth into the functions and algorithms in specific files with line numbers. 
+
+We recommend you clone the repo and play around with it on your own system instead of just looking at the source code in github. It is best practice to start by finding a gui element and then looking into the functionality that the gui works with. 
+
+Ex (open source project PLANNED_PROJECT.txt). 
+
+I am learning the open source project Icarus Verilog (https://github.com/steveicarus/iverilog). I plan to look into all of the sections and not just the vvp runtime engine or something else. 
+
+Ex (journal addition) 
+
+-FastPartial.c is the file that does fast partial derivatives. The break_apart_partials() on line 12 is responsible for separating partial derivatives into smaller ones that are fed to the fast_derivative() on line 28. 
+Improving extra learning project
+
+If you want to add onto or modify some resource in the extra learning document then you can improve the extra learning document. You must specify what you are trying to expand or rewrite in your PLANNED_PROJECT.txt file. You may be asked to do another project on top of this one depending on the specific project you are doing. 
+
+Ex (adding to resources PLANNED_PROJECT). 
+
+I am going to improve the float part of the fasm docs (slide xyz). I am going to expand the float with extra code examples.
+
+Ex (update adding to resources)
+
+I added a section that shows a float error and specified how to solve it. It is roughly 2 slides on my version of the slides. 
+
+Grading 
+
+We will give you points based on the project you send via pull request. Generally finishing projects that are semi complex, well documented with comments, and bug free will award you the most points. If you do a directed lab the quiz will be graded based on answer and have a max point value of 3 per question for easy difficulty, 5 per question for medium difficulty and 10 per question for hard difficulty.  
