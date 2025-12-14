@@ -1,0 +1,11 @@
+https://youtu.be/zF4VMombo7U?si=-b-7fam-QsgklK72
+General cache overview.
+
+https://youtu.be/wfVy85Dqiyc?si=984r_5INs8xtdV_S
+Cache write policy overview.
+
+https://youtu.be/P_UYI23DddU?si=J884ssR5U6Ci5KR1
+Cache replacement policy overview
+
+https://www.youtube.com/watch?v=Bz49xnKBH_0&list=PLxfrSxK7P38X7XfG4X8Y9cdOURvC7ObMF&index=73
+Full cache tutorial

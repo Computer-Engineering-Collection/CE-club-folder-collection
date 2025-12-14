@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=4Pi424VJgcE&list=PLxNPSjHT5qvscDTMaIAY9boOOXAJAS7y4
+This a youtube tutorial detailing the textbook that was used for the slides. 
+
+https://www.youtube.com/watch?v=eBPxdOWrzkY&list=PLxNPSjHT5qvu-XJze4QjZ-qv4uKN2--Oa
+A cuda in depth analysis
+
+https://www.youtube.com/watch?v=86FAWCzIe_4&t=2263s
+A cuda tutorial
+
+https://www.youtube.com/watch?v=ziMRjDlLEwo&list=PL5Q2soXY2Zi-LfDdGgWyLcTSqzm6a26wD
+An in depth tutorial on a very general overview of computer architecture.
+
+https://www.nas.nasa.gov/hecc/support/kb/basics-on-nvidia-gpu-hardware-architecture_704.html#:~:text=A%20Streaming%20Multiprocessor%20is%20an,capable%20of%20mixed%20precision%20operations.
+
+https://modal.com/gpu-glossary/device-hardware/texture-processing-cluster
