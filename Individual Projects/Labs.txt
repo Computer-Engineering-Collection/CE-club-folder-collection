@@ -1,0 +1,119 @@
+OS
+What is the utility of the round robin scheduling algorithm? (easy)
+What is a kernel? (easy)
+List 3 linux kernel apis. (easy)
+What is the difference between user vs kernel permission? (medium)
+What does ring 0 mean? (medium)
+What is the default memory location of the kernel on bootup? (medium)
+What does concurrency mean to OSTEP? (medium)
+What does virtualization mean to OSTEP? (medium)
+What part of the hardware is separated from the OS? (medium)
+
+Projects:
+-Implement a representation of an OS scheduling simulation. 
+
+Write a script that simulates an operating system scheduler (5 stage). You can represent processes via numbers which represent a PID (i.e. you don’t need to have real processes). You must randomize the return time and the i/o need of each process. You can implement any scheduling algorithm of your choice. Can be written in any language you want. For the scheduling algorithm it is recommended that you go to section 7 of ostep. Ask the board team in github or the remind if you need anything. 
+
+-Create a winapi script
+
+Must integrate at least 3 winapi functions. Write a simple script that integrates winapi for windows. Using non gui is recommended. If you want to learn more about winapi in asm then you should wait for the winapi section of the asm to go. Otherwise there should be a winapi tutorial posted soon. Writing in C/asm is recommended. Ask the board team in github or the remind if you need anything. 
+
+-Create a bat/bash file
+
+(FOR LINUX)
+Write a bash script that preforms a system hardening routine of your choice. The script much 1: alter the PAM. 2: The file must update OpenSSH and Sytemd. 3: The file must remove Apache applications. 4: The file must disable root login with SSH.
+CPU
+Name all of the stages in a 3 stage processor? (easy)
+What does writeback mean in a processor? (easy)
+At what point in a processor algorithm does a bus get called to get an instruction? (easy)
+What isa does your processor use? (easy)
+Name all of the stages in a 5 stage processor? (medium)
+When implementing a processor that has parallelism what stage will determine the clock speed of the processor? (medium)
+
+
+
+Project 
+-Implement a parallelism algorithm. 
+
+Implement an algorithm that targets instructions, threads or data and uses an existing optimizing algorithm. It can be written on top of an existing verilog project or a new implementation of a theoretical parallelism algorithm in a programming language. Parallelism algorithms to be implemented and github projects to build on will be supplied in time. Request this lab and we will give it to you in a specified time frame.
+
+-Make an opcode reader. 
+
+Make a file with custom opcodes / operands (1 byte) and write a script that interprets it. It must read at least 3 different opcodes with different operands. The opcode reader can be simple and only handle moving into registers for example. The specifications of your working code should specify with comments. Can be written in any language. You cannot use the example opcode/operand.
+	Example of opcode/operand - 1 (mov instruction) 0 (represent a register) 1 ( represent a number) 
+
+-Make a threading script. 
+
+Implement a simple algorithm that implements threading such as multiplying two arrays of numbers together. The threading api is discussed in section 27 of ostep. There will be a threading section appended to the extra learning document. Using C is recommended.
+Memory
+What is the primary difference between RAM and ROM? (easy)
+What is DRAM vs SRAM? (easy)
+Which is faster, L1 or L3 cache? (easy)
+What are 3 types of ROM? (easy)
+Flash memory is a type of RAM or ROM? (easy)
+In L1 cache what does icache mean and what is its purpose? (medium)
+What is the difference between aoi vs oai? (medium)
+What is the difference between direct-mapped and associative mapped? (medium)
+
+
+
+Projects:
+Make a basic ram system with electrical components(capacitors)
+Make a verilog program of a dram (advanced).
+Make a program that uses caching a lot. 
+Implement the circuit diagram of nand flash memory. 
+
+
+ASM
+Questions that won’t require looking at fasm manual (slides/doc only): 
+-What is your operating system? (easy)
+-What is the difference between putting a variable in brackets and leaving a variable on its own (i.e. [variable] or variable)? (easy)
+-What is fasm g? (easy)
+-How do you make a loop in fasm? (easy)
+-What is a different way to mov a variable than mov eax, [memory]? (easy)
+
+Questions that will require looking at fasm manual:
+-What is an error code that you may have to deal with when using lodsb? (easy)
+-What is a difference between intel and at&t syntax? (easy)
+-At what size does windows ask you to use NX to extend your binary into long mode? (medium)
+-How do you import a custom dll? (medium)
+-What’s the difference between invoke and stdcall? (medium)
+-What is the generated file extension of the file generated in the process of assembling a fasm file (IR)? (medium)
+-What is the format for the first header of the file generated in the process of assembling a fasm file? (hard)
+
+Projects:
+-Prove they can use floats, strings, jumps, and compares without breaking code.
+
+Make a file that integrates floats, strings, unconditional and conditional jumps, and compares. Must be written in asm however it is recommended to write it in fasm. There must be a minimum of 50 lines. For information on this look at the fasm tutorial in the github resources folder.
+
+
+-Make an atoi algorithm.
+
+An atoi algorithm is an algorithm that takes an ascii character into an integer. It is recommended to take a number in quotes (i.e. the ascii value of a number) and translate them into an array of integers. It is highly recommended that you program in C/asm. 
+
+-Make a BCD reader.
+
+Show the BCD reader being used in some way.
+
+-Prove that you can use fasm macros (not fasm g). 
+
+
+
+-Implement an sha256 hash generator. 
+VERILOG
+Circuits
+What is threading? 
+What is fine grain vs course grain threading?
+
+Compiler
+What are the functions of a compiler?
+What is an IR?
+How would you make an IR more or less dense?
+
+Projects:
+Create your own compiler(DIfficult).
+Create a compiler for Holy C.
+Create a lexer. 
+Create a parser
+Create an optimizer
+Create a linker
