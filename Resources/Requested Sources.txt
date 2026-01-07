@@ -1,0 +1,3 @@
+https://www.gameenginebook.com/figures.html
+
+A collection of textbooks that help with making game engines.
