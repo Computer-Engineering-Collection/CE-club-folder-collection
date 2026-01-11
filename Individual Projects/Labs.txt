@@ -58,12 +58,18 @@ What is the difference between direct-mapped and associative mapped? (medium)
 
 
 Projects:
-Make a basic ram system with electrical components(capacitors)
-Make a verilog program of a dram (advanced).
+
+Make a basic ram system with electrical components
+
+Use electrical components to replicate how ram systems work. You should do your own research into ram and show all of the math involved in making your system. 
+
 Make a program that uses caching a lot. 
+
+Make a program that requires an excess of cache affinity and/or uses a high amount of the cpu cache. It is recommended that you use C or another systems programming language. It is recommended that you google or ai to learn about how to use caching. If you do this then you should research first and then outline what you want to do in your proposal! 
+
 Implement the circuit diagram of nand flash memory. 
 
-
+Draw out on paper or on your computer a diagram of how cmos circuits would be made in a circuit diagram of nand flash memory. You should explicitly make this as simple as possible. You should research power consumption and delay and write out a plan for how you are thinking of implementing them in your own design. 
 ASM
 Questions that won’t require looking at fasm manual (slides/doc only): 
 -What is your operating system? (easy)
@@ -86,34 +92,14 @@ Projects:
 
 Make a file that integrates floats, strings, unconditional and conditional jumps, and compares. Must be written in asm however it is recommended to write it in fasm. There must be a minimum of 50 lines. For information on this look at the fasm tutorial in the github resources folder.
 
-
 -Make an atoi algorithm.
 
-An atoi algorithm is an algorithm that takes an ascii character into an integer. It is recommended to take a number in quotes (i.e. the ascii value of a number) and translate them into an array of integers. It is highly recommended that you program in C/asm. 
+An atoi (ascii to integer) algorithm is an algorithm that takes an ascii character into an integer. It is recommended to take a number in quotes (i.e. the ascii value of a number) and translate them into an array of integers. It is highly recommended that you program in C/asm. 
 
 -Make a BCD reader.
 
 Show the BCD reader being used in some way.
 
--Prove that you can use fasm macros (not fasm g). 
+-Write your own sha256 hash generator. 
 
-
-
--Implement an sha256 hash generator. 
-VERILOG
-Circuits
-What is threading? 
-What is fine grain vs course grain threading?
-
-Compiler
-What are the functions of a compiler?
-What is an IR?
-How would you make an IR more or less dense?
-
-Projects:
-Create your own compiler(DIfficult).
-Create a compiler for Holy C.
-Create a lexer. 
-Create a parser
-Create an optimizer
-Create a linker
+You should first ask about what sha is and how it works before starting this challenge. Implement a program that takes an input and outputs an sha256 hash. 
