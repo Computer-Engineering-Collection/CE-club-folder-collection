@@ -1,0 +1,52 @@
+
+- Learn RTL design (Verilog/SystemVerilog)
+- Practice with open PDKs (Sky130, GF180)
+- Take a VLSI physical design course
+- Get access to 28 nm through a university or MPW
+- Tape out a small design (RISC‑V core, accelerator, etc.)
+This is exactly how most engineers enter the field
+
+Competitions
+
+https://chipfoundry.io/chipdiscover
+Look in the education tab. 
+
+https://tinytapeout.com/chips/
+
+https://hackaday.io/contests
+
+https://www.hackster.io/contests
+
+https://openhw.eu/
+
+https://ectf.mitre.org/
+
+Transistors per company
+
+https://www.mosis2.com/digital-cmos
+    TSMC: 12nm to 350nm digital FinFET and bulk CMOS processes
+    Intel Foundry: 16nm FinFET process
+    Samsung Foundry: 28nm FD-SOI, 65nm, and 130nm processes
+    SkyWater Technology: 90nm and 130nm processes
+
+Trainings/Resources
+
+https://hackaday.io/course/176480-prototyping-in-mechanical-engineering
+
+https://vlsi.jp/Introduction_to_OpenMPW.html
+
+https://github.com/efabless/chipignite-resources/blob/main/open-source-tool-matrix.md
+
+Big Companies 
+-Nvidia
+-Samsung 
+-Intel
+-Qualcomm
+-Broadcomm
+-AMD
+-Apple
+
+Companies/Institutes
+-HRL labs
+https://cam.hrl.com/
+-PDF solutions
