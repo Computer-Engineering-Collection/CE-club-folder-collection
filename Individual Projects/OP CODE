@@ -1,0 +1,11 @@
+OP CODE:
+
+example: 11000110
+
+the first bit (1) determines if it will go to the ALU or not, if the bit is flipped to 1, then the binary data will go to the ALU. If it is set to 0, the data will be sent to the VRAM
+
+The following 2 bits (10) will determine the operator for the ALU to proccess, these bits should be set to 0 if the ALU bit is not set.
+
+The following 2 bits of data (00) are the numarical data sent to either the ALU or the VRAM, same with the following 2 bits (11).
+
+The last bit in the number (0) should always be 0 for our opcode.
