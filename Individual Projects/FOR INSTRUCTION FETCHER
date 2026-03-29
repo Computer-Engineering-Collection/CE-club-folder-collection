@@ -1,0 +1,1 @@
+If you were given a text file, where each line of the file contained 8 digitd that could be only either 1 or 0, how can oyu read that file, and convert it to a binary number? When you figure that out, set an 8 bit register to hold the 8 bit binary number
